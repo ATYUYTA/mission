@@ -1,0 +1,18 @@
+version: '3'
+services:
+  mission1:
+    image: jupyter/minimal-notebook
+    container_name: jupyter_notebook
+    user: root
+    environment:
+      - GRANT_SUDO=yes
+    ports:
+      - "8888:8888"
+      - "5000:5000"
+    volumes:
+      - ./work:/home/jovyan/work/
+    command: start-notebook.sh --NotebookApp.token=''
+
+
+
+
