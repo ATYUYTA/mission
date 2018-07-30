@@ -1,0 +1,21 @@
+#Description:this is a file about making a envirement for Jupyter notebook
+#
+#do the follow step
+#
+#
+####Unbuntu
+#apt-get update
+#apt-get install git
+####Centos
+#yum install git-core
+#
+#git https://github.com/ATYUYTA/mission.git
+#
+#cd mission/mission1
+#docker-compose up
+#
+#
+#use a internet browser
+#type the ip "localhost:8888"
+#to start to use the Jupyter notebook
+#
