@@ -1,0 +1,22 @@
+version: '3'
+services:
+  jupyter-tutorial:
+    image: jupyter/minimal-notebook
+    container_name: jupyter_notebook
+    user: root
+    environment:
+      - GRANT_SUDO=yes
+    ports:
+      - "8888:8888"
+	volumes:
+      - ./work:/home/jovyan/work/
+    command: start-notebook.sh --NotebookApp.token=''
+  myaql-tutorial:
+    image: mysql/mysql-server:5.7
+    container_name: mysql
+	user: root
+	enviroment:
+	  - MYSQL_ROOT_PASSWORD=ubuntu
+    ports:
+      - "3306:3306"
+
