@@ -8,15 +8,14 @@ services:
       - GRANT_SUDO=yes
     ports:
       - "8888:8888"
-	volumes:
-      - ./work:/home/jovyan/work/
+    volumes:
+      - ../mission1//work:/home/jovyan/work/
     command: start-notebook.sh --NotebookApp.token=''
-  myaql-tutorial:
-    image: mysql/mysql-server:5.7
+  myaql:
+    image: mysql:5.7
     container_name: mysql
-	user: root
-	enviroment:
-	  - MYSQL_ROOT_PASSWORD=ubuntu
+    environment:
+      - MYSQL_ROOT_PASSWORD=iii
     ports:
       - "3306:3306"
 
