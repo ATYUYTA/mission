@@ -1,13 +1,14 @@
 version: '3'
 services:
   jupyter-tutorial:
-    image: jupyter/minimal-notebook
+    image: asoo571314/jupyter-notebook:1.0
     container_name: jupyter_notebook
     user: root
     environment:
       - GRANT_SUDO=yes
     ports:
       - "8888:8888"
+      - "5000:5000"
     volumes:
       - ../mission1//work:/home/jovyan/work/
     command: start-notebook.sh --NotebookApp.token=''
