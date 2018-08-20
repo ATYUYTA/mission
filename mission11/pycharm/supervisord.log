@@ -1,0 +1,354 @@
+Created by...
+___.   .__       .__                   
+\_ |__ |__| ____ |  |__   ____ ___  ___
+ | __ \|  |/    \|  |  \_/ __ \\  \/  /
+ | \_\ \  |   |  \   Y  \  ___/ >    < 
+ |___  /__|___|  /___|  /\___  >__/\_ \
+     \/        \/     \/     \/      \/
+   https://hub.docker.com/u/binhex/
+
+2018-08-19 17:21:21.403970 [info] System information Linux b274260f2142 4.15.0-15-generic #16~16.04.1-Ubuntu SMP Thu Apr 5 12:19:23 UTC 2018 x86_64 GNU/Linux
+2018-08-19 17:21:21.427822 [info] PUID defined as '0'
+2018-08-19 17:21:21.706058 [info] PGID defined as '0'
+2018-08-19 17:21:21.906844 [info] UMASK defined as '000'
+2018-08-19 17:21:21.930990 [info] Setting permissions recursively on volume mappings...
+2018-08-19 17:22:30.833617 [info] Starting Supervisor...
+2018-08-19 17:22:31,129 INFO Included extra file "/etc/supervisor/conf.d/novnc.conf" during parsing
+2018-08-19 17:22:31,129 INFO Set uid to user 0 succeeded
+2018-08-19 17:22:31,132 INFO supervisord started with pid 7
+2018-08-19 17:22:32,136 INFO spawned: 'start' with pid 49
+2018-08-19 17:22:32,137 INFO reaped unknown pid 8
+2018-08-19 17:22:32,154 DEBG 'start' stdout output:
+[info] Password length OK, proceeding to set password...
+
+2018-08-19 17:22:32,154 INFO success: start entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2018-08-19 17:22:32,175 DEBG 'start' stderr output:
+xauth:  file /home/nobody/.Xauthority does not exist
+
+2018-08-19 17:22:35,181 DEBG 'start' stderr output:
+
+New 'b274260f2142:0 ()' desktop is b274260f2142:0
+
+Creating default startup script /home/nobody/.vnc/xstartup
+Creating default config /home/nobody/.vnc/config
+Starting applications specified in /home/nobody/.vnc/xstartup
+Log file is /home/nobody/.vnc/b274260f2142:0.log
+
+
+2018-08-19 17:22:35,206 DEBG 'start' stdout output:
+Warning: could not find self.pem
+
+2018-08-19 17:22:35,216 DEBG 'start' stdout output:
+Using installed websockify at /usr/sbin/websockify
+
+2018-08-19 17:22:35,216 DEBG 'start' stdout output:
+Starting webserver and WebSockets proxy on port 6080
+
+2018-08-19 17:22:35,756 DEBG 'start' stderr output:
+WebSocket server settings:
+  - Listen on :6080
+
+2018-08-19 17:22:35,756 DEBG 'start' stderr output:
+  - Flash security policy server
+  - Web server. Web root: /usr/share/novnc
+
+2018-08-19 17:22:35,757 DEBG 'start' stderr output:
+  - No SSL/TLS support (no cert file)
+
+2018-08-19 17:22:35,757 DEBG 'start' stderr output:
+  - proxying from :6080 to localhost:5900
+
+2018-08-19 17:22:36,229 DEBG 'start' stdout output:
+
+
+Navigate to this URL:
+
+
+2018-08-19 17:22:36,232 DEBG 'start' stdout output:
+    http://b274260f2142:6080/vnc.html?host=b274260f2142&port=6080
+
+Press Ctrl-C to exit
+
+
+
+2018-08-19 17:22:37,210 DEBG 'start' stderr output:
+tint2: xRandr: Found crtc's: 1
+[1;34mtint2: xRandr: Linking output VNC-0 with crtc 0, resolution 1024x768, DPI 96[0m
+
+2018-08-19 17:22:37,210 DEBG 'start' stderr output:
+tint2: No XSETTINGS manager, tint2 uses config option 'launcher_icon_theme'.
+tint2: Loading config file: /home/nobody/tint2/theme/tint2rc
+
+2018-08-19 17:22:37,211 DEBG 'start' stderr output:
+tint2: real transparency off.... depth: 24
+
+2018-08-19 17:22:37,213 DEBG 'start' stderr output:
+tint2: panel items: TSC
+tint2: Systray composited rendering on
+tint2: nb monitors 1, nb monitors used 1, nb desktops 4
+[1;34mtint2: panel 1 uses scale 1 [0m
+
+2018-08-19 17:22:37,223 DEBG 'start' stderr output:
+tint2: Kernel uevent interface initialized...
+
+2018-08-19 17:22:37,223 DEBG 'start' stderr output:
+tint2: systray window 4194316
+[1;32mtint2: systray started[0m
+
+2018-08-19 17:22:39,215 DEBG 'start' stderr output:
+tint2: Detected compositor, restarting tint2...
+
+2018-08-19 17:22:39,217 DEBG 'start' stderr output:
+[1;33mtint2: /build/tint2/src/tint2/src/main.c 782: restarting tint2...[0m
+
+2018-08-19 17:22:39,219 DEBG 'start' stderr output:
+tint2: xRandr: Found crtc's: 1
+
+2018-08-19 17:22:39,220 DEBG 'start' stderr output:
+[1;34mtint2: xRandr: Linking output VNC-0 with crtc 0, resolution 1024x768, DPI 96[0m
+
+2018-08-19 17:22:39,220 DEBG 'start' stderr output:
+tint2: No XSETTINGS manager, tint2 uses config option 'launcher_icon_theme'.
+tint2: Loading config file: /home/nobody/tint2/theme/tint2rc
+
+2018-08-19 17:22:39,221 DEBG 'start' stderr output:
+tint2: real transparency on... depth: 32
+
+2018-08-19 17:22:39,221 DEBG 'start' stderr output:
+tint2: panel items: TSC
+tint2: Systray composited rendering on
+tint2: nb monitors 1, nb monitors used 1, nb desktops 4
+[1;34mtint2: panel 1 uses scale 1 [0m
+
+2018-08-19 17:22:39,223 DEBG 'start' stderr output:
+tint2: Kernel uevent interface initialized...
+
+2018-08-19 17:22:39,224 DEBG 'start' stderr output:
+tint2: systray window 4194317
+
+2018-08-19 17:22:39,224 DEBG 'start' stderr output:
+[1;32mtint2: systray started[0m
+
+2018-08-19 17:22:42,938 DEBG 'start' stderr output:
+192.168.122.1 - - [19/Aug/2018 17:22:42] 192.168.122.1: Plain non-SSL (ws://) WebSocket connection
+
+2018-08-19 17:22:42,938 DEBG 'start' stderr output:
+192.168.122.1 - - [19/Aug/2018 17:22:42] 192.168.122.1: Version hybi-13, base64: 'False'
+192.168.122.1 - - [19/Aug/2018 17:22:42] 192.168.122.1: Path: '/websockify'
+192.168.122.1 - - [19/Aug/2018 17:22:42] connecting to: localhost:5900
+
+2018-08-19 17:22:46,512 DEBG 'start' stderr output:
+[1;33m/build/tint2/src/tint2/src/util/signals.c 161: triggering tint2 restart, reason: configuration change in the root window[0m
+
+2018-08-19 17:22:46,525 DEBG 'start' stderr output:
+[1;33mtint2: /build/tint2/src/tint2/src/main.c 782: restarting tint2...[0m
+
+2018-08-19 17:22:46,530 DEBG 'start' stderr output:
+tint2: xRandr: Found crtc's: 1
+
+2018-08-19 17:22:46,530 DEBG 'start' stderr output:
+[1;34mtint2: xRandr: Linking output VNC-0 with crtc 0, resolution 1745x868, DPI 96[0m
+
+2018-08-19 17:22:46,531 DEBG 'start' stderr output:
+tint2: No XSETTINGS manager, tint2 uses config option 'launcher_icon_theme'.
+tint2: Loading config file: /home/nobody/tint2/theme/tint2rc
+
+2018-08-19 17:22:46,531 DEBG 'start' stderr output:
+tint2: real transparency on... depth: 32
+
+2018-08-19 17:22:46,531 DEBG 'start' stderr output:
+tint2: panel items: TSC
+tint2: Systray composited rendering on
+tint2: nb monitors 1, nb monitors used 1, nb desktops 4
+[1;34mtint2: panel 1 uses scale 1 [0m
+
+2018-08-19 17:22:46,538 DEBG 'start' stderr output:
+tint2: Kernel uevent interface initialized...
+
+2018-08-19 17:22:46,538 DEBG 'start' stderr output:
+tint2: systray window 4194317
+
+2018-08-19 17:22:46,538 DEBG 'start' stderr output:
+[1;32mtint2: systray started[0m
+
+2018-08-19 17:23:22,351 DEBG 'start' stderr output:
+Aug 19, 2018 9:23:22 AM java.util.prefs.FileSystemPreferences$1 run
+INFO: Created user preferences directory.
+
+2018-08-19 17:23:22,352 DEBG 'start' stderr output:
+Aug 19, 2018 9:23:22 AM java.util.prefs.FileSystemPreferences$6 run
+WARNING: Prefs file removed in background /root/.java/.userPrefs/prefs.xml
+
+2018-08-19 17:52:22,423 DEBG 'start' stderr output:
+[1;33m/build/tint2/src/tint2/src/util/signals.c 161: triggering tint2 restart, reason: configuration change in the root window[0m
+
+2018-08-19 17:52:22,446 DEBG 'start' stderr output:
+[1;33mtint2: /build/tint2/src/tint2/src/main.c 782: restarting tint2...[0m
+
+2018-08-19 17:52:22,451 DEBG 'start' stderr output:
+tint2: xRandr: Found crtc's: 1
+
+2018-08-19 17:52:22,452 DEBG 'start' stderr output:
+[1;34mtint2: xRandr: Linking output VNC-0 with crtc 0, resolution 1301x598, DPI 96[0m
+tint2: No XSETTINGS manager, tint2 uses config option 'launcher_icon_theme'.
+tint2: Loading config file: /home/nobody/tint2/theme/tint2rc
+
+2018-08-19 17:52:22,452 DEBG 'start' stderr output:
+tint2: real transparency on... depth: 32
+
+2018-08-19 17:52:22,453 DEBG 'start' stderr output:
+tint2: panel items: TSC
+tint2: Systray composited rendering on
+tint2: nb monitors 1, nb monitors used 1, nb desktops 4
+[1;34mtint2: panel 1 uses scale 1 [0m
+
+2018-08-19 17:52:22,463 DEBG 'start' stderr output:
+tint2: Kernel uevent interface initialized...
+
+2018-08-19 17:52:22,463 DEBG 'start' stderr output:
+tint2: systray window 4194317
+[1;32mtint2: systray started[0m
+
+2018-08-19 17:52:23,247 DEBG 'start' stderr output:
+[1;33m/build/tint2/src/tint2/src/util/signals.c 161: triggering tint2 restart, reason: configuration change in the root window[0m
+
+2018-08-19 17:52:23,267 DEBG 'start' stderr output:
+[1;33mtint2: /build/tint2/src/tint2/src/main.c 782: restarting tint2...[0m
+
+2018-08-19 17:52:23,271 DEBG 'start' stderr output:
+tint2: xRandr: Found crtc's: 1
+
+2018-08-19 17:52:23,271 DEBG 'start' stderr output:
+[1;34mtint2: xRandr: Linking output VNC-0 with crtc 0, resolution 1745x868, DPI 96[0m
+
+2018-08-19 17:52:23,271 DEBG 'start' stderr output:
+tint2: No XSETTINGS manager, tint2 uses config option 'launcher_icon_theme'.
+tint2: Loading config file: /home/nobody/tint2/theme/tint2rc
+
+2018-08-19 17:52:23,272 DEBG 'start' stderr output:
+tint2: real transparency on... depth: 32
+
+2018-08-19 17:52:23,272 DEBG 'start' stderr output:
+tint2: panel items: TSC
+tint2: Systray composited rendering on
+tint2: nb monitors 1, nb monitors used 1, nb desktops 4
+[1;34mtint2: panel 1 uses scale 1 [0m
+
+2018-08-19 17:52:23,282 DEBG 'start' stderr output:
+tint2: Kernel uevent interface initialized...
+
+2018-08-19 17:52:23,283 DEBG 'start' stderr output:
+tint2: systray window 4194317
+
+2018-08-19 17:52:23,283 DEBG 'start' stderr output:
+[1;32mtint2: systray started[0m
+
+2018-08-19 17:53:01,421 DEBG 'start' stderr output:
+[1;33m/build/tint2/src/tint2/src/util/signals.c 161: triggering tint2 restart, reason: configuration change in the root window[0m
+
+2018-08-19 17:53:01,437 DEBG 'start' stderr output:
+[1;33mtint2: /build/tint2/src/tint2/src/main.c 782: restarting tint2...[0m
+
+2018-08-19 17:53:01,444 DEBG 'start' stderr output:
+tint2: xRandr: Found crtc's: 1
+
+2018-08-19 17:53:01,444 DEBG 'start' stderr output:
+[1;34mtint2: xRandr: Linking output VNC-0 with crtc 0, resolution 1301x598, DPI 96[0m
+
+2018-08-19 17:53:01,445 DEBG 'start' stderr output:
+tint2: No XSETTINGS manager, tint2 uses config option 'launcher_icon_theme'.
+tint2: Loading config file: /home/nobody/tint2/theme/tint2rc
+
+2018-08-19 17:53:01,445 DEBG 'start' stderr output:
+tint2: real transparency on... depth: 32
+
+2018-08-19 17:53:01,445 DEBG 'start' stderr output:
+tint2: panel items: TSC
+tint2: Systray composited rendering on
+tint2: nb monitors 1, nb monitors used 1, nb desktops 4
+[1;34mtint2: panel 1 uses scale 1 [0m
+
+2018-08-19 17:53:01,462 DEBG 'start' stderr output:
+tint2: Kernel uevent interface initialized...
+
+2018-08-19 17:53:01,462 DEBG 'start' stderr output:
+tint2: systray window 4194317
+[1;32mtint2: systray started[0m
+
+2018-08-19 17:53:02,354 DEBG 'start' stderr output:
+[1;33m/build/tint2/src/tint2/src/util/signals.c 161: triggering tint2 restart, reason: configuration change in the root window[0m
+
+2018-08-19 17:53:02,371 DEBG 'start' stderr output:
+[1;33mtint2: /build/tint2/src/tint2/src/main.c 782: restarting tint2...[0m
+
+2018-08-19 17:53:02,375 DEBG 'start' stderr output:
+tint2: xRandr: Found crtc's: 1
+
+2018-08-19 17:53:02,375 DEBG 'start' stderr output:
+[1;34mtint2: xRandr: Linking output VNC-0 with crtc 0, resolution 864x850, DPI 96[0m
+
+2018-08-19 17:53:02,376 DEBG 'start' stderr output:
+tint2: No XSETTINGS manager, tint2 uses config option 'launcher_icon_theme'.
+tint2: Loading config file: /home/nobody/tint2/theme/tint2rc
+
+2018-08-19 17:53:02,377 DEBG 'start' stderr output:
+tint2: real transparency on... depth: 32
+
+2018-08-19 17:53:02,379 DEBG 'start' stderr output:
+tint2: panel items: TSC
+tint2: Systray composited rendering on
+
+2018-08-19 17:53:02,379 DEBG 'start' stderr output:
+tint2: nb monitors 1, nb monitors used 1, nb desktops 4
+[1;34mtint2: panel 1 uses scale 1 [0m
+
+2018-08-19 17:53:02,404 DEBG 'start' stderr output:
+tint2: Kernel uevent interface initialized...
+
+2018-08-19 17:53:02,405 DEBG 'start' stderr output:
+tint2: systray window 4194317
+[1;32mtint2: systray started[0m
+
+2018-08-19 18:02:07,381 DEBG 'start' stderr output:
+[1;33m/build/tint2/src/tint2/src/util/signals.c 161: triggering tint2 restart, reason: configuration change in the root window[0m
+
+2018-08-19 18:02:07,403 DEBG 'start' stderr output:
+[1;33mtint2: /build/tint2/src/tint2/src/main.c 782: restarting tint2...[0m
+
+2018-08-19 18:02:07,407 DEBG 'start' stderr output:
+tint2: xRandr: Found crtc's: 1
+
+2018-08-19 18:02:07,407 DEBG 'start' stderr output:
+[1;34mtint2: xRandr: Linking output VNC-0 with crtc 0, resolution 1745x868, DPI 96[0m
+
+2018-08-19 18:02:07,407 DEBG 'start' stderr output:
+tint2: No XSETTINGS manager, tint2 uses config option 'launcher_icon_theme'.
+tint2: Loading config file: /home/nobody/tint2/theme/tint2rc
+
+2018-08-19 18:02:07,408 DEBG 'start' stderr output:
+tint2: real transparency on... depth: 32
+
+2018-08-19 18:02:07,408 DEBG 'start' stderr output:
+tint2: panel items: TSC
+tint2: Systray composited rendering on
+tint2: nb monitors 1, nb monitors used 1, nb desktops 4
+
+2018-08-19 18:02:07,409 DEBG 'start' stderr output:
+[1;34mtint2: panel 1 uses scale 1 [0m
+
+2018-08-19 18:02:07,420 DEBG 'start' stderr output:
+tint2: Kernel uevent interface initialized...
+
+2018-08-19 18:02:07,420 DEBG 'start' stderr output:
+tint2: systray window 4194317
+
+2018-08-19 18:02:07,421 DEBG 'start' stderr output:
+[1;32mtint2: systray started[0m
+
+2018-08-19 20:03:14,797 WARN received SIGTERM indicating exit request
+2018-08-19 20:03:14,797 DEBG killing start (pid 49) with signal SIGTERM
+2018-08-19 20:03:14,797 INFO waiting for start to die
+2018-08-19 20:03:14,798 DEBG fd 8 closed, stopped monitoring <POutputDispatcher at 139918383258800 for <Subprocess at 139918383258512 with name start in state STOPPING> (stdout)>
+2018-08-19 20:03:14,798 DEBG fd 10 closed, stopped monitoring <POutputDispatcher at 139918383259088 for <Subprocess at 139918383258512 with name start in state STOPPING> (stderr)>
+2018-08-19 20:03:14,798 INFO stopped: start (terminated by SIGTERM)
+2018-08-19 20:03:14,798 DEBG received SIGCLD indicating a child quit
