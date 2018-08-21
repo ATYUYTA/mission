@@ -1,0 +1,12 @@
+#!/bin/bash
+
+
+for f in /docker-entrypoint-initdb.d/*;
+do
+	/docker-entrypoint-initdb.d/base.sql
+done
+
+
+
+
+

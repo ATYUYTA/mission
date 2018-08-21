@@ -12,11 +12,10 @@ services:
     volumes:
       - ../mission1//work:/home/jovyan/work/
     command: start-notebook.sh --NotebookApp.token=''
-  myaql:
+  mysql:
     image: mysql:5.7
     container_name: mysql
     environment:
       - MYSQL_ROOT_PASSWORD=iii
     ports:
       - "3306:3306"
-
